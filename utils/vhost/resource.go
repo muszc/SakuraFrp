@@ -30,46 +30,57 @@ var (
 const (
 	ServiceUnavailable = `<!DOCTYPE html>
 <html>
-	<head>
-		<title>503 Service Unavailable</title>
-		<style>
-			body {
-				background: #F1F1F1;
-			}
-			.box {
-				width: 35em;
-				margin: 0 auto;
-				font-family: Tahoma, Verdana, Arial, sans-serif;
-				background: #FFF;
-				padding: 8px 32px;
-				box-shadow: 0px 0px 16px rgba(0,0,0,0.1);
-				margin-top: 80px;
-				font-weight: 300;
-			}
-			.box h1 {
-				font-weight: 300;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="box">
-			<h1>503 Service Unavailable</h1>
-			<p>您访问的网站或服务暂时不可用</p>
-			<p>如果您是隧道所有者，造成无法访问的原因可能有：</p>
-			<ul>
-				<li>您访问的网站使用了内网穿透，但是对应的客户端没有运行。</li>
-				<li>该网站或隧道已被管理员临时或永久禁止连接。</li>
-				<li>域名解析更改还未生效或解析错误，请检查设置是否正确。</li>
-			</ul>
-			<p>如果您是普通访问者，您可以：</p>
-			<ul>
-				<li>稍等一段时间后再次尝试访问此站点。</li>
-				<li>尝试与该网站的所有者取得联系。</li>
-				<li>刷新您的 DNS 缓存或在其他网络环境访问。</li>
-			</ul>
-			<p align="right"><em>Powered by Sakura Panel | Based on Frp</em></p>
-		</div>
-	</body>
+<head>
+  <meta charset="utf-8" />
+ <title>GUGU FRP服务错误</title>
+<link rel="shortcut icon" href="https://www.musz.cn/wp-content/LOGO/logo.png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="Sample content" name="description" />
+  <meta content="sample-author" name="author" />
+  <link href="https://frp.musz.cn/pages/css/dmaku.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="body-main">
+  <div class="pi-wrapper">
+    <div class="main-wrapper">
+      <div id="particles-js" class="canvas-maker1 zindex1"></div>
+      <section>
+        <div class="spinner">
+          <div class="loader">
+            <div class="bounce loader1 "></div>
+            <div class="bounce loader2 "></div>
+          </div>
+        </div>
+      </section>
+      <div class="account-pages"></div>
+      <div class="clearfix"></div>
+      <div class="wrapper-page relative zindex2">
+        <div class="ex-page-content text-center">
+          <div class="text-error floating">5 0 3</div>
+          <h3 class="text-uppercase font-600 text-white">503 Service Unavailable</h3>
+			<p class="text-white">您访问的网站或服务暂时不可用</p>
+			<p class="text-white">如果您是隧道所有者，造成无法访问的原因可能有：</p>
+				<p class="text-white">您访问的网站使用了内网穿透，但是对应的客户端没有运行。</p>
+				<p class="text-white">该网站或隧道已被管理员临时或永久禁止连接。</p>
+				<p class="text-white">域名解析更改还未生效或解析错误，请检查设置是否正确。</p>
+			<p class="text-white">如果您是普通访问者，您可以：</p>
+
+				<p class="text-white">稍等一段时间后再次尝试访问此站点。</p>
+				<p class="text-white">尝试与该网站的所有者取得联系。</p>
+				<p class="text-white">刷新您的 DNS 缓存或在其他网络环境访问。</p>
+          <div class="text-center">
+            <a class="btn  btn-warning btn-rounded  m-t-20 m-b-30" href="https://www.musz.cn"> <i class="fa fa-long-arrow-left"></i> 返回冰糖橙之家 </a>
+          </div>
+          <p class="text-white">© 2019-2021. All Rights Reserved By: <strong> <a style="color:#fff" href="https://www.musz.cn">GUGU FRP</a></strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script  src="https://frp.musz.cn/pages/js/jquery.min.js"></script>
+  <script  src="https://frp.musz.cn/pages/js/particles.js"></script>
+  <script  src="https://frp.musz.cn/pages/js/particlesapp_bubble.js"></script>
+  <script  src="https://frp.musz.cn/pages/js/jquery.app.js"></script>
+</body>
 </html>
 `
 )
