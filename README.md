@@ -3,7 +3,7 @@
 
 Sakura Frp 是一个基于 frp 的二次开发项目，在原版的基础上增加了限速、流控以及对接网站的功能，可实现商业化运营。
 
-此软件需要配合 [SakuraPanel](https://github.com/ZeroDream-CN/SakuraPanel) 面板使用。
+此软件需要配合 [SakuraPanel](https://github.com/muszc/SakuraPanel) 面板使用。
 
 ## 安装
 
@@ -12,7 +12,7 @@ Sakura Frp 是一个基于 frp 的二次开发项目，在原版的基础上增�
 编译方法（编译过程需要科学上网）：
 
 ```bash
-git clone https://github.com/ZeroDream-CN/SakuraFrp
+git clone https://github.com/muszc/SakuraFrp
 cd SakuraFrp/
 make
 ```
